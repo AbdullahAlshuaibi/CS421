@@ -1,0 +1,62 @@
+Script started on Thu 12 Dec 2019 04:38:41 PM PST
+]0;alshu002@empress:~/cs421/CS421Progs/TranslatorFiles[?1034h[alshu002@empress TranslatorFiles]$ ex[Kg++ translator.cpp
+]0;alshu002@empress:~/cs421/CS421Progs/TranslatorFiles[alshu002@empress TranslatorFiles]$ ./a.out
+Enter the input file name: partCtest1
+Would you like to see traces? Y/n: n
+
+Scanner called using word: watashi
+Scanner called using word: wa
+Scanner called using word: rika
+Scanner called using word: desu
+Scanner called using word: .
+Scanner called using word: watashi
+Scanner called using word: wa
+Scanner called using word: sensei
+Scanner called using word: desu
+Scanner called using word: .
+Scanner called using word: rika
+Scanner called using word: wa
+Scanner called using word: gohan
+Scanner called using word: o
+Scanner called using word: tabE
+Scanner called using word: masu
+Scanner called using word: .
+Scanner called using word: watashi
+Scanner called using word: wa
+Scanner called using word: tesuto
+Scanner called using word: o
+Scanner called using word: seito
+Scanner called using word: ni
+Scanner called using word: agE
+Scanner called using word: mashita
+Scanner called using word: .
+Scanner called using word: shikashi
+Scanner called using word: seito
+Scanner called using word: wa
+Scanner called using word: yorokobI
+Scanner called using word: masendeshita
+Scanner called using word: .
+Scanner called using word: dakara
+Scanner called using word: watashi
+Scanner called using word: wa
+Scanner called using word: kanashii
+Scanner called using word: deshita
+Scanner called using word: .
+Scanner called using word: soshite
+Scanner called using word: rika
+Scanner called using word: wa
+Scanner called using word: toire
+Scanner called using word: ni
+Scanner called using word: ikI
+Scanner called using word: mashita
+Scanner called using word: .
+Scanner called using word: rika
+Scanner called using word: wa
+Scanner called using word: nakI
+Scanner called using word: mashita
+Scanner called using word: .
+Scanner called using word: eofm
+]0;alshu002@empress:~/cs421/CS421Progs/TranslatorFiles[alshu002@empress TranslatorFiles]$ exit
+exit
+
+Script done on Thu 12 Dec 2019 04:39:23 PM PST

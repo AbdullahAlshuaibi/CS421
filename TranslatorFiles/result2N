@@ -1,0 +1,18 @@
+Script started on Thu 12 Dec 2019 04:50:58 PM PST
+]0;alshu002@empress:~/cs421/CS421Progs/TranslatorFiles[?1034h[alshu002@empress TranslatorFiles]$ ex./a.oug++ translator.cemacs test1resulg++ translator.cpp
+]0;alshu002@empress:~/cs421/CS421Progs/TranslatorFiles[alshu002@empress TranslatorFiles]$ g++ translator.cexit./a.out
+Enter the input file name: translated.tpartCtest2
+Would you like to see traces? Y/n: n
+
+Scanner called using word: soshite
+Scanner called using word: watashi
+Scanner called using word: wa
+Scanner called using word: rika
+Scanner called using word: desu
+Scanner called using word: ne
+
+SYNTAX ERROR: expected PERIOD but found ne
+]0;alshu002@empress:~/cs421/CS421Progs/TranslatorFiles[alshu002@empress TranslatorFiles]$ exit
+exit
+
+Script done on Thu 12 Dec 2019 04:51:23 PM PST
