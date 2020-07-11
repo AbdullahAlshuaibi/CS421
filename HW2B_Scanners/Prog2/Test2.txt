@@ -1,0 +1,100 @@
+Script started on Fri 04 Oct 2019 07:08:40 PM PDT
+]0;alshu002@empress:~/cs421/CS421Progs/HW2B_Scanners/Prog2[?1034h[alshu002@empress Prog2]$ emacs mat.cplines.tx[2Pmat.cplscd HW2A_Matrlscd .[3Pcd .emacs fa.clscd Prolsemacs fa.c[7Pcd .[3Pcd .[3Pcd HW2A_Matrlsemacs mat.cplines.tx[2Pmat.cp[Kg++ td.cpp
+]0;alshu002@empress:~/cs421/CS421Progs/HW2B_Scanners/Prog2[alshu002@empress Prog2]$ ./a.out
+This is a table driven scanner. Needs trs.txt and dfas.txt.
+States are 0 to 9 and chars are a to d
+        a b c d
+state 0:0 1     
+state 1:        
+state 2:    2 3 
+state 3:        
+state 4:        
+state 5:        
+state 6:        
+state 7:        
+state 8:        
+state 9:        
+token1: 0 is start and ends in 1
+token2: 2 is start and ends in 3
+.....done reading tables....
+@@Enter a string: ab
+Trying dfa 0--------
+state: 0 char: a
+new state: 0
+state: 0 char: b
+new state: 1
+found token token1
+do control-C to quit
+@@Enter a string: abb
+Trying dfa 0--------
+state: 0 char: a
+new state: 0
+state: 0 char: b
+new state: 1
+state: 1 char: b
+new state: -1
+Lexical error!
+Trying dfa 1--------
+state: 2 char: a
+new state: -1
+Lexical error!
+do control-C to quit
+@@Enter a string: aaab
+Trying dfa 0--------
+state: 0 char: a
+new state: 0
+state: 0 char: a
+new state: 0
+state: 0 char: a
+new state: 0
+state: 0 char: b
+new state: 1
+found token token1
+do control-C to quit
+@@Enter a string: cd
+Trying dfa 0--------
+state: 0 char: c
+new state: -1
+Lexical error!
+Trying dfa 1--------
+state: 2 char: c
+new state: 2
+state: 2 char: d
+new state: 3
+found token token2
+do control-C to quit
+@@Enter a string: cdd
+Trying dfa 0--------
+state: 0 char: c
+new state: -1
+Lexical error!
+Trying dfa 1--------
+state: 2 char: c
+new state: 2
+state: 2 char: d
+new state: 3
+state: 3 char: d
+new state: -1
+Lexical error!
+do control-C to quit
+@@Enter a string: cccd
+Trying dfa 0--------
+state: 0 char: c
+new state: -1
+Lexical error!
+Trying dfa 1--------
+state: 2 char: c
+new state: 2
+state: 2 char: c
+new state: 2
+state: 2 char: c
+new state: 2
+state: 2 char: d
+new state: 3
+found token token2
+do control-C to quit
+@@Enter a string: ^X^C
+]0;alshu002@empress:~/cs421/CS421Progs/HW2B_Scanners/Prog2[alshu002@empress Prog2]$ exit
+exit
+
+Script done on Fri 04 Oct 2019 07:09:27 PM PDT

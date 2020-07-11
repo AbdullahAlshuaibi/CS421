@@ -1,0 +1,28 @@
+Script started on Fri 13 Sep 2019 07:13:16 PM PDT
+]0;alshu002@empress:~/cs421/CS421Progs/HW1B_RecGen[?1034h[alshu002@empress HW1B_RecGen]$ emacs client2.cp[2Pqueue.cpgenerator.cplscd HW1B_RecGlscd CS421Proglscd cs4lscd cs4lscd CS421Proglscd HW1B_RecGlsemacs generator.cp[4Pqueue.cpclient2.cp[Kemacs client2.cp[Kg++ generator.cpp queue.cpp
+]0;alshu002@empress:~/cs421/CS421Progs/HW1B_RecGen[alshu002@empress HW1B_RecGen]$ ./a.out
+0
+1
+00
+01
+10
+11
+000
+001
+010
+011
+100
+101
+110
+111
+0000
+0001
+0010
+0011
+.
+.
+'Overflows' 'Overflows' 'Overflows'
+]0;alshu002@empress:~/cs421/CS421Progs/HW1B_RecGen[alshu002@empress HW1B_RecGen]$ exit
+exit
+
+Script done on Fri 13 Sep 2019 07:13:52 PM PDT

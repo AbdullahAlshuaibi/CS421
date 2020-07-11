@@ -1,0 +1,163 @@
+Script started on Thu 12 Dec 2019 01:03:50 PM PST
+]0;alshu002@empress:~/cs421/CS421Progs/ScannerFiles[?1034h[alshu002@empress ScannerFiles]$ cp parser (3).cpp parser3.cpparser (3).cpp c[C[C[C[C[C[C[C[C[C[C[C[C[[10Pemacs parser(3).cp (3).clscd ParserFillscd .[1P .[3Pcd ParserFillsemacs parser (3).c[1P(3).cpparser (3).cpp cp parser3.cpcp parser (3).cp[C[C[C[C[C[C[C[C[C[C[C[C[[Kg++ scanner.cpp
+]0;alshu002@empress:~/cs421/CS421Progs/ScannerFiles[alshu002@empress ScannerFiles]$ ./a.out
+Enter the input file name: scannertest1
+
+Type is:PRONOUN
+Word is:watashi
+
+Type is:SUBJECT
+Word is:wa
+
+Type is:WORD1
+Word is:rika
+
+Type is:IS
+Word is:desu
+
+Type is:PERIOD
+Word is:.
+
+Type is:PRONOUN
+Word is:watashi
+
+Type is:SUBJECT
+Word is:wa
+
+Type is:WORD1
+Word is:sensei
+
+Type is:IS
+Word is:desu
+
+Type is:PERIOD
+Word is:.
+
+Type is:PRONOUN
+Word is:watashi
+
+Type is:SUBJECT
+Word is:wa
+
+Type is:WORD1
+Word is:ryouri
+
+Type is:OBJECT
+Word is:o
+
+Type is:WORD2
+Word is:yarI
+
+Type is:VERB
+Word is:masu
+
+Type is:PERIOD
+Word is:.
+
+Type is:PRONOUN
+Word is:watashi
+
+Type is:SUBJECT
+Word is:wa
+
+Type is:WORD1
+Word is:gohan
+
+Type is:OBJECT
+Word is:o
+
+Type is:WORD1
+Word is:seito
+
+Type is:DESTINATION
+Word is:ni
+
+Type is:WORD2
+Word is:agE
+
+Type is:VERBPAST
+Word is:mashita
+
+Type is:PERIOD
+Word is:.
+
+Type is:CONNECTOR
+Word is:shikashi
+
+Type is:WORD1
+Word is:seito
+
+Type is:SUBJECT
+Word is:wa
+
+Type is:WORD2
+Word is:yorokobI
+
+Type is:VERBPASTNEG
+Word is:masendeshita
+
+Type is:PERIOD
+Word is:.
+
+Type is:CONNECTOR
+Word is:dakara
+
+Type is:PRONOUN
+Word is:watashi
+
+Type is:SUBJECT
+Word is:wa
+
+Type is:WORD1
+Word is:kanashii
+
+Type is:WAS
+Word is:deshita
+
+Type is:PERIOD
+Word is:.
+
+Type is:CONNECTOR
+Word is:soshite
+
+Type is:PRONOUN
+Word is:watashi
+
+Type is:SUBJECT
+Word is:wa
+
+Type is:WORD1
+Word is:toire
+
+Type is:DESTINATION
+Word is:ni
+
+Type is:WORD2
+Word is:ikI
+
+Type is:VERBPAST
+Word is:mashita
+
+Type is:PERIOD
+Word is:.
+
+Type is:PRONOUN
+Word is:watashi
+
+Type is:SUBJECT
+Word is:wa
+
+Type is:WORD2
+Word is:nakI
+
+Type is:VERBPAST
+Word is:mashita
+
+Type is:PERIOD
+Word is:.
+
+End of file is encountered.
+]0;alshu002@empress:~/cs421/CS421Progs/ScannerFiles[alshu002@empress ScannerFiles]$ exit
+exit
+
+Script done on Thu 12 Dec 2019 01:04:29 PM PST

@@ -1,0 +1,220 @@
+Script started on Fri 01 Nov 2019 11:52:03 PM PDT
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[?1034h[alshu002@empress HW3A_LL1]$ emacs ll1.cp@instructionثوشذس[C[C[C[C[C[C[C[C[C[C[C[C[C[[12P./rulell1.oulscd HW3A_LLlscd HW3A_LLlsg++ ll1.cpp stack.cpp
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ .a.out
+bash: .a.out: command not found
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ ./a.out
+S:          0 A 0          1 A 1 
+A:          0 0          1 1 
+B:                   
+Enter a string made of 0's and/or 1's: 0110
+Stack:
+s
+--------------
+Adding rhs of a rule to the stack.
+Stack:
+0
+A
+0
+--------------
+current char is: 0
+MATCHED!!
+
+Stack
+A
+0
+--------------
+current char is: 1
+Adding rhs of a rule to the stack.
+
+Stack
+1
+1
+0
+--------------
+current char is: 1
+MATCHED!!
+
+Stack
+1
+0
+--------------
+current char is: 1
+MATCHED!!
+
+Stack
+0
+--------------
+current char is: 0
+MATCHED!!
+
+Stack
+[ empty ]
+--------------
+>> ACCEPT!
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ 
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ 
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ 
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ ./a.out
+S:          0 A 0          1 A 1 
+A:          0 0          1 1 
+B:                   
+Enter a string made of 0's and/or 1's: 1001
+Stack:
+s
+--------------
+Adding rhs of a rule to the stack.
+Stack:
+1
+A
+1
+--------------
+current char is: 1
+MATCHED!!
+
+Stack
+A
+1
+--------------
+current char is: 0
+Adding rhs of a rule to the stack.
+
+Stack
+0
+0
+1
+--------------
+current char is: 0
+MATCHED!!
+
+Stack
+0
+1
+--------------
+current char is: 0
+MATCHED!!
+
+Stack
+1
+--------------
+current char is: 1
+MATCHED!!
+
+Stack
+[ empty ]
+--------------
+>> ACCEPT!
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ 
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ 
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ 
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ ./a.out
+S:          0 A 0          1 A 1 
+A:          0 0          1 1 
+B:                   
+Enter a string made of 0's and/or 1's: 200
+Stack:
+s
+--------------
+>>Error - no rule. Reject!
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ 
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ 
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ ./a.out
+S:          0 A 0          1 A 1 
+A:          0 0          1 1 
+B:                   
+Enter a string made of 0's and/or 1's: 0110000
+Stack:
+s
+--------------
+Adding rhs of a rule to the stack.
+Stack:
+0
+A
+0
+--------------
+current char is: 0
+MATCHED!!
+
+Stack
+A
+0
+--------------
+current char is: 1
+Adding rhs of a rule to the stack.
+
+Stack
+1
+1
+0
+--------------
+current char is: 1
+MATCHED!!
+
+Stack
+1
+0
+--------------
+current char is: 1
+MATCHED!!
+
+Stack
+0
+--------------
+current char is: 0
+MATCHED!!
+
+Stack
+[ empty ]
+--------------
+terminate called after throwing an instance of 'stack::Underflow'
+Aborted
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ 
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ 
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ ./a.out
+S:          0 A 0          1 A 1 
+A:          0 0          1 1 
+B:                   
+Enter a string made of 0's and/or 1's: ^[0111
+Stack:
+s
+--------------
+Adding rhs of a rule to the stack.
+Stack:
+0
+A
+0
+--------------
+current char is: 0
+MATCHED!!
+
+Stack
+A
+0
+--------------
+current char is: 1
+Adding rhs of a rule to the stack.
+
+Stack
+1
+1
+0
+--------------
+current char is: 1
+MATCHED!!
+
+Stack
+1
+0
+--------------
+current char is: 1
+MATCHED!!
+
+Stack
+0
+--------------
+current char is: 1
+>>MISMATCH Error REJECT!
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ 
+]0;alshu002@empress:~/cs421/CS421Progs/HW3A_LL1[alshu002@empress HW3A_LL1]$ exit
+exit
+
+Script done on Fri 01 Nov 2019 11:53:46 PM PDT

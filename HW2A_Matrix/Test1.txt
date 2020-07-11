@@ -1,0 +1,11 @@
+Script started on Sat 28 Sep 2019 12:51:22 AM PDT
+]0;alshu002@empress:~/cs421/CS421Progs/HW2A_Matrix[?1034h[alshu002@empress HW2A_Matrix]$ eximacs military2.cp[1P.clscd cs11[[1Pemacs recognizer.clscd cs1lsemacs military.c2.cxit[Kg++ matt.cp[1P.c[C[C[C[C
+]0;alshu002@empress:~/cs421/CS421Progs/HW2A_Matrix[alshu002@empress HW2A_Matrix]$ ./a.out
+Reading table from lines.txt...
+0| a b c | d e f | - - - | - - - | 
+1| - - - | - - - | g h i | j k l | 
+2| - - - | - - - | - - - | - - - | 
+]0;alshu002@empress:~/cs421/CS421Progs/HW2A_Matrix[alshu002@empress HW2A_Matrix]$ exit
+exit
+
+Script done on Sat 28 Sep 2019 12:52:02 AM PDT

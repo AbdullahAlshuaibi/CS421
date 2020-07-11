@@ -1,0 +1,262 @@
+Script started on Fri 04 Oct 2019 01:51:58 PM PDT
+]0;alshu002@empress:~/cs421/CS421Progs/HW2B_Scanners/Prog1[?1034h[alshu002@empress Prog1]$ emacs fain.t[7P./a.oug++ fa.c[2@emacs[C[C[C[C[C[C[2Pg++[C[C[C[C[C[C[C
+]0;alshu002@empress:~/cs421/CS421Progs/HW2B_Scanners/Prog1[alshu002@empress Prog1]$ g++ fa.cemacs fain.t[7P./a.oug++ fa.c[3P./a.out
+Enter the input file name:fain.txt
+
+.....Scanner was called...
+>>>>>Word is: ab_2a
+
+Trying the IDENT  machine...
+current state: 0
+character: a
+current state: 1
+character: b
+current state: 1
+character: _
+current state: 1
+character: 2
+current state: 1
+character: a
+>>>>>Type is:IDENT
+
+.....Scanner was called...
+>>>>>Word is: a_b_2_a
+
+Trying the IDENT  machine...
+current state: 0
+character: a
+current state: 1
+character: _
+current state: 1
+character: b
+current state: 1
+character: _
+current state: 1
+character: 2
+current state: 1
+character: _
+current state: 1
+character: a
+>>>>>Type is:IDENT
+
+.....Scanner was called...
+>>>>>Word is: .23
+
+Trying the IDENT  machine...
+current state: 0
+character: .
+I am stuck in state 0
+
+Trying the REAL  machine...
+current state: 0
+character: .
+current state: 1
+character: 2
+current state: 2
+character: 3
+>>>>>Type is:REAL
+
+.....Scanner was called...
+>>>>>Word is: 23.3
+
+Trying the IDENT  machine...
+current state: 0
+character: 2
+I am stuck in state 0
+
+Trying the REAL  machine...
+current state: 0
+character: 2
+current state: 0
+character: 3
+current state: 0
+character: .
+current state: 1
+character: 3
+>>>>>Type is:REAL
+
+.....Scanner was called...
+>>>>>Word is: 23
+
+Trying the IDENT  machine...
+current state: 0
+character: 2
+I am stuck in state 0
+
+Trying the REAL  machine...
+current state: 0
+character: 2
+current state: 0
+character: 3
+
+Trying the INT machine...
+current state: 0
+character: 2
+current state: 1
+character: 3
+>>>>>Type is:INT
+
+.....Scanner was called...
+>>>>>Word is: ab&c
+
+Trying the IDENT  machine...
+current state: 0
+character: a
+current state: 1
+character: b
+current state: 1
+character: &
+I am stuck in state 1
+
+Trying the REAL  machine...
+current state: 0
+character: a
+I am stuck in state 0
+
+Trying the INT machine...
+current state: 0
+character: a
+I am stuck in state 0
+
+>>>>>Lexical Error: The string is not in my language
+>>>>>Type is:ERROR
+
+.....Scanner was called...
+>>>>>Word is: 23.6
+
+Trying the IDENT  machine...
+current state: 0
+character: 2
+I am stuck in state 0
+
+Trying the REAL  machine...
+current state: 0
+character: 2
+current state: 0
+character: 3
+current state: 0
+character: .
+current state: 1
+character: 6
+I am stuck in state 1
+
+Trying the INT machine...
+current state: 0
+character: 2
+current state: 1
+character: 3
+current state: 1
+character: .
+I am stuck in state 1
+
+>>>>>Lexical Error: The string is not in my language
+>>>>>Type is:ERROR
+
+.....Scanner was called...
+>>>>>Word is: 2a3
+
+Trying the IDENT  machine...
+current state: 0
+character: 2
+I am stuck in state 0
+
+Trying the REAL  machine...
+current state: 0
+character: 2
+current state: 0
+character: a
+I am stuck in state 0
+
+Trying the INT machine...
+current state: 0
+character: 2
+current state: 1
+character: a
+I am stuck in state 1
+
+>>>>>Lexical Error: The string is not in my language
+>>>>>Type is:ERROR
+
+.....Scanner was called...
+>>>>>Word is: 22..2
+
+Trying the IDENT  machine...
+current state: 0
+character: 2
+I am stuck in state 0
+
+Trying the REAL  machine...
+current state: 0
+character: 2
+current state: 0
+character: 2
+current state: 0
+character: .
+current state: 1
+character: .
+I am stuck in state 1
+
+Trying the INT machine...
+current state: 0
+character: 2
+current state: 1
+character: 2
+current state: 1
+character: .
+I am stuck in state 1
+
+>>>>>Lexical Error: The string is not in my language
+>>>>>Type is:ERROR
+
+.....Scanner was called...
+>>>>>Word is: 23.
+
+Trying the IDENT  machine...
+current state: 0
+character: 2
+I am stuck in state 0
+
+Trying the REAL  machine...
+current state: 0
+character: 2
+current state: 0
+character: 3
+current state: 0
+character: .
+
+Trying the INT machine...
+current state: 0
+character: 2
+current state: 1
+character: 3
+current state: 1
+character: .
+I am stuck in state 1
+
+>>>>>Lexical Error: The string is not in my language
+>>>>>Type is:ERROR
+
+.....Scanner was called...
+>>>>>Word is: EOF
+
+Trying the IDENT  machine...
+current state: 0
+character: E
+I am stuck in state 0
+
+Trying the REAL  machine...
+current state: 0
+character: E
+I am stuck in state 0
+
+Trying the INT machine...
+current state: 0
+character: E
+I am stuck in state 0
+
+>>>>>Lexical Error: The string is not in my language
+>>>>>End of File encountered
+]0;alshu002@empress:~/cs421/CS421Progs/HW2B_Scanners/Prog1[alshu002@empress Prog1]$ exit
+exit
+
+Script done on Fri 04 Oct 2019 01:52:15 PM PDT

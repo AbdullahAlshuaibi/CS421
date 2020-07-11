@@ -1,0 +1,47 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+//-------------------------------------------------------
+// CS421 HW1 
+// Write a recognizer in C++ for L = {x | x is a binary number}.
+// Your name: **
+//-------------------------------------------------------
+
+//  The recognizer function should return TRUE or FALSE 
+//  checking each character
+//  to make sure it is 0 or 1. (leading 0's are allowed).
+bool recognizer(string s)
+{ 
+  for(int i=0; i< s.size(); i++)
+    {
+      if(s[i]!='0' and s[i]!='1')
+	{
+	  return false;
+	}
+    }
+  return true;
+}// end of recognizer
+
+//main: Given a string (from E) cined from the user, pass it to
+//      the recognizer function.
+//      Cout "YES IN L" or "NO NOT IN L" depending on what was returned.
+int main()
+{ 
+
+  string binary; 
+  cout<<"Enter a string: ";
+  cin>> binary;
+
+  bool TorF;
+  TorF = recognizer(binary);
+
+  if(TorF == true)
+    cout<<"YES IN L"<<endl;
+  else
+    cout<<"NO NOT IN L"<<endl;
+
+
+    // feel free to put it in a loop 
+
+}// end of main
